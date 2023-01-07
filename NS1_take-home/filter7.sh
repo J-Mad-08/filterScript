@@ -21,6 +21,6 @@ done <$file
 sudo chattr +i Maya-Angelou_poems/StillIRise.txt
   # cleanup
 # trap 'rm -f "$TMPFILE"' EXIT
-# TMPFILE=Poe_poems/filterPoem.txt|| exit 1
+# TMPFILE=Maya-Angelou_poems/filterPoem.txt|| exit 1
 # echo "Our temp file is $TMPFILE"
 
