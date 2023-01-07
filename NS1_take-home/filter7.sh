@@ -19,8 +19,5 @@ do
 done <$file
   # prevent editing of filter file with chattr immutability
 sudo chattr +i Maya-Angelou_poems/StillIRise.txt
-  # cleanup
-# trap 'rm -f "$TMPFILE"' EXIT
-# TMPFILE=Maya-Angelou_poems/filterPoem.txt|| exit 1
-# echo "Our temp file is $TMPFILE"
+  
 
