@@ -1,5 +1,4 @@
 #!/bin/bash
-# https://fedingo.com/how-to-fix-permission-denied-error-while-running-shell-script/
 chmod +x ./filter7.sh
 file="Maya-Angelou_poems/StillIRise.txt"
 charLimit=7
@@ -12,8 +11,10 @@ do
     echo $line
   else 
   # remove empty lines from print
+  # keeping whitespace since it is a character
     if [ ${#line} -ne 0 ]; then
     echo $line >> "Maya-Angelou_poems/filterPoem.txt"
+    echo 
     fi
   fi
 done <$file
