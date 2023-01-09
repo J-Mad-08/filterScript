@@ -24,6 +24,7 @@ NS1.Zone.find(`${process.env.ZONE}/${process.env.DOMAIN}/A`).then(
 							},
 						},
 					],
+					use_client_subnet: false,
 				})
 				// not sure why the zone attributes are updated but there is is an unknown field meta in dns.zone.UpdateRequest thats blocking the return
 				/**
