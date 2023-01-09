@@ -33,7 +33,7 @@ NS1.Zone.find(`${process.env.ZONE}/${process.env.DOMAIN}/A`).then(
 				.then(console.log('SUCCESS HANDLER: ', record));
 			return updatedRecord;
 		} catch (e) {
-			// able to see the new answer has been appended but failed POS
+			// able to see the new answer has been appended but failed
 			console.log(record.attributes.answers);
 			console.error('ERROR', e.message);
 			return record;
