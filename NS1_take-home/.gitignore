@@ -1,2 +1,3 @@
 .DS_Store
 .env
+/Part_One/node_modules
