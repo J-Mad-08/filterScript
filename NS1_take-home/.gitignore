@@ -2,3 +2,6 @@
 .env
 /Part_One/node_modules
 /.env
+command.txt
+response.txt
+response.json

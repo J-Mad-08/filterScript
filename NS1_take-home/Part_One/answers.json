@@ -1,0 +1,25 @@
+{
+	"answers": [
+		{
+			"answer": ["9.9.9.9"],
+			"id": "63bbbdeb8e7fcc0081ec1e2d",
+			"meta": {
+				"georegion": ["US-WEST"]
+			}
+		},
+		{
+			"answer": ["124.1.2.24"],
+			"id": "63bbbdeb8e7fcc0081ec1e2e",
+			"meta": {
+				"georegion": ["US-CENTRAL"]
+			}
+		},
+		{
+			"answer": ["120.2.3.36"],
+			"id": "63bbbdeb8e7fcc0081ec1e2f",
+			"meta": {
+				"georegion": ["US-EAST"]
+			}
+		}
+	]
+}
