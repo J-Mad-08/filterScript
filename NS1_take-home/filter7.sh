@@ -1,5 +1,4 @@
 #!/bin/bash
-# https://fedingo.com/how-to-fix-permission-denied-error-while-running-shell-script/
 chmod +x ./filter7.sh
 file="Maya-Angelou_poems/StillIRise.txt"
 charLimit=7
